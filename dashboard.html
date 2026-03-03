@@ -6,13 +6,13 @@
     <title>Dashboard</title>
   </head>
   <body class="bg-gradient-to-r from-[#1FA2D6] to-[#1C78D6]">
-    <nav class="flex justify-between p-6">
-      <p class="text-[22px] font-semibold text-white">
+    <nav class="flex justify-between items-center p-6">
+      <p class="max-[450px]:text-[18px] text-[22px] font-semibold text-white">
         Welcome, <span id="welcomeTxt"></span>
       </p>
       <button
         id="logout"
-        class="cursor-pointer bg-[#FF4B4B] text-white py-2 px-5 rounded-xl"
+        class="cursor-pointer max-[450px]:py-1 max-[450px]:px-3 bg-[#FF4B4B] text-white py-2 px-5 rounded-xl"
       >
         Logout
       </button>
@@ -24,18 +24,18 @@
         <input id="speed" type="range" max="2" min="0" step="0.1" value="1" class="voiceSpeed w-52"/>
        </div>
 
-      <div class="flex justify-center items-center gap-8 mt-10">
-        <div class="bg-[#E6E6E6] flex flex-col gap-7 items-center py-8 pt-10 px-6 rounded-xl shadow-2xl hover:-translate-y-3 transition-all duration-300">
+      <div class="flex max-[1138px]:flex-col justify-center items-center gap-8 mt-10">
+        <div class="bg-[#E6E6E6] max-[450px]:px-2 max-[450px]:py-6 max-[450px]:text-[15px] flex flex-col gap-7 items-center py-8 pt-10 px-6 rounded-xl shadow-2xl hover:-translate-y-3 transition-all duration-300">
           <p class="font-semibold text-xl">Lesson 1</p>
           <p class="text w-72 text-center text-[#333]">JavaScript makes websites interactive and fun.</p>
           <button class="btnListen cursor-pointer px-32 bg-[#1E73D8] py-2 text-white rounded-xl">Listen</button>
         </div>
-        <div class="bg-[#E6E6E6] flex flex-col gap-7 items-center py-8 pt-10 px-6 rounded-xl shadow-2xl hover:-translate-y-3 transition-all duration-300">
+        <div class="bg-[#E6E6E6]  max-[450px]:px-2 max-[450px]:py-6 [450px]:text-[15px]  flex flex-col gap-7 items-center py-8 pt-10 px-6 rounded-xl shadow-2xl hover:-translate-y-3 transition-all duration-300">
           <p class="font-semibold text-xl">Lesson 2</p>
           <p class="text w-72 text-center text-[#333]">LocalStorage saves information in your browser.</p>
           <button class="btnListen cursor-pointer px-32 bg-[#1E73D8] py-2 text-white rounded-xl">Listen</button>
         </div>
-        <div class="bg-[#E6E6E6] flex flex-col gap-7 items-center py-8 pt-10 px-6 rounded-xl shadow-2xl hover:-translate-y-3 transition-all duration-300">
+        <div class="bg-[#E6E6E6]  max-[450px]:px-2 max-[450px]:py-6 [450px]:text-[15px]  flex flex-col gap-7 items-center py-8 pt-10 px-6 rounded-xl shadow-2xl hover:-translate-y-3 transition-all duration-300">
           <p class="font-semibold text-xl">Lesson 3</p>
           <p class="text w-72 text-center text-[#333]">Authentication checks if a user can access the app.</p>
           <button class="btnListen cursor-pointer px-32 bg-[#1E73D8] py-2 text-white rounded-xl">Listen</button>
